@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+  <title>JavaScript Temperature Converter</title>
+
+  <script type="text/javascript" src="temperature.js"></script>
+</head>
+<body>
+  <h1>Temperature Converter</h1>
+  <div>
+    <table>
+      <tr>
+        <th>Enter temperature (examples: 12F, 56C, -3.4f)</th>
+        <td><input id="original" autofocus onchange="calculate();" type="text" placeholder="32F" size="50"></td>
+      </tr>
+      <tr>
+        <th>Converted Temperature: </th>
+        <td><span class="output" id="converted"></span></td>
+      </tr>
+    </table>
+  </div>  
+</body>
+</html>

@@ -4,11 +4,11 @@ function calculate(){
   var temp = original.value;
   var regexp = /c/i
 
-  var m = temp.match(/[+-]?[0-9]+([c|f]|(.[0-9]+[c|f]))/i); //REVISAR
+  var m = temp.match(/[+-]?[0-9]+(\.[0-9]*)?\s*([c|f])/i); //Funcion match pone los resultados en un array.
 
   if(m){
     var num = m[0];
-    var type = m[1]; //Mirar porque??
+    var type = m[2];
     num = parseFloat(num);
 
     if(type == 'c' || type == 'C'){

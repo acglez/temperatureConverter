@@ -11,11 +11,16 @@
   <script type="text/javascript" src="temperature.js"></script>
 </head>
 <body>
-  <h1>Temperature Converter</h1>
-  <div>
-    <table>
+  <div id="header_wrap">
+    <header class="inner">
+      <a id="forkme_banner" href="https://github.com/acglez/temperatureConverter">View on GitHub</a>
+      <h1 id="titulo">Temperature Converter</h1>
+    </header>
+  </div>
+  <div id="main_content_wrap" class="outer">
+    <table id="tabla_temp">
       <tr>
-        <th>Enter temperature (examples: 12F, 56C, -3.4f)</th>
+        <th id="th1_tabla">Enter temperature (examples: 12F, 56C, -3.4f)</th>
         <td><input id="original" autofocus onchange="calculate();" type="text" placeholder="32F" size="50"></td>
       </tr>
       <tr>
@@ -24,5 +29,13 @@
       </tr>
     </table>
   </div>
+
+  <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p>Published with <a href="https://github.com/acglez">Acglez.</a></p>
+      </footer>
+    </div>
+
 </body>
 </html>

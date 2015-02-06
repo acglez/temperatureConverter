@@ -2,9 +2,9 @@ function calculate(){
   var result;
   var original= document.getElementById("original");
   var temp = original.value;
-  var regexp = /c/i
+  var regexp = /^\s*([-+]?\d+(?:.\d+)?(?:[eE][-+]?\d+)?)\s*([cf])\s*$/i
 
-  var m = temp.match(/[+-]?[0-9]+(\.[0-9]*)?\s*([c|f])/i); //Funcion match pone los resultados en un array.
+  var m = temp.match(regexp); //Funcion match pone los resultados en un array.
 
   if(m){
     var num = m[0];

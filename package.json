@@ -1,0 +1,30 @@
+{
+  "name": "temperatureConverter",
+  "version": "0.0.1",
+  "description": "Use this to convert the temperature.",
+  "main": "temperature.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^1.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "open test/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/acglez/temperatureConverter.git"
+  },
+  "keywords": [
+    "temperature",
+    "converter"
+  ],
+  "author": "Adrián",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acglez/temperatureConverter/issues"
+  },
+  "homepage": "https://github.com/acglez/temperatureConverter"
+}
